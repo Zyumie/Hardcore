@@ -1,0 +1,9 @@
+# Hardcore configuration exemples.
+hardcore:
+  enabled: true
+  ban-on-death: false
+  spectator-on-death: true
+
+messages:
+  ban-reason: "Mort en mode Hardcore"  # <---- This is Exemple
+  kick-message: "Vous êtes banni : Mort en Hardcore."

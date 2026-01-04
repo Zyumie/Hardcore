@@ -1,0 +1,21 @@
+name: Hardcore
+version: 1.0.0
+author: Zyumie
+main: fr.zyumie.hardcore.Main
+api-version: 1.21
+commands:
+  hardcore-on:
+    description: Active le Mods Hardcore sur le Server
+    usage: /hardcore-on
+    permission: hardcore.hardcore-on
+  hardcore-off:
+    description: Désactive le Mods Hardcore sur le Server
+    usage: /hardcore-off
+    permission: hardcore.hardcore-off
+permissions:
+  hardcore.hardcore-on:
+    description: Permet d'activer le Mode Hardcore
+    default: op
+  hardcore.hardcore-off:
+    description: Permet de Désactiver le Mode Harcore
+    default: op
